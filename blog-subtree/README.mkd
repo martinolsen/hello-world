@@ -1,0 +1,11 @@
+mkII blog engine
+================
+
+Drafting a blog-post
+--------------------
+
+    git checkout -b $date-$name
+    vim target/$date-$name.mkd
+    ./build.pl
+    www-browser output/$date-$name.html
+    git commit -a target/$date-$name.mkd
