@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Article index</title>
+    </head>
+
+    <body>
+        <ul>
+            [% FOR article IN index %]
+                <li>[% article.date %]: <a href="[% article.url %]">[% article.title %]</a></li>
+            [% END %]
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>[% article.title %]</title>
+    </head>
+
+    <body>
+        <article>[% body %]</article>
+
+        <p>Date: [% article.date %]</p>
+    </body>
+</html>
